@@ -12,6 +12,8 @@ RUN set -ex \
     && yum -y install dnf-plugins-core \
     && yum config-manager --set-enabled powertools \
     && yum -y install \
+       lua \
+       lua-devel \
        wget \
        bzip2 \
        perl \
